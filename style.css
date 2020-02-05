@@ -1,23 +1,46 @@
 /*this is a comment*/
 body{
     font-family: 'avenir','sans-serif';
+    
 }
 h1{
     color:brown;
     font-size: 100px;
     font-family: 'palatino, serif';
+    display: inline-block;
+    z-index: 2;
+
 }
 #second-header{
     color:rgb(97, 15, 228);
+    z-index: 2;
+
 }
 p{
     font-size: 14px;
     width:30%;
 }
 #hero-wrapper{
-    width: 600px;
+    width: 800px;
     margin-right: auto;
     margin-left: auto;
     text-align: center;
     margin-top: 10%;
+    position: relative;
+    z-index: 2;
+}
+#hero-beans{
+    background-image: url("image/beans.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    width:50%;
+    height:100%;
+    background-attachment: fixed;
+    position: absolute;
+    top:0px;
+    right:0px;
+    z-index: 1;
+    
+
 }
