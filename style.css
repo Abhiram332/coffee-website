@@ -80,6 +80,34 @@ padding:17px;
     top:0px;
     right:0px;
     z-index: 1;
-    
+}
+.standard-margin-section{
+    margin-right: 0;
+    margin-left: 0;
+    padding-top: 200px;
+    max-width: 960px;
+}
+.column-wrapper{
+    display: flex;
+}
+.column{
+    widows: 30%;
+    background-color:#ffffff;
 
+
+}
+.middle{
+    margin-right: 20px;
+    margin-left: 20px;
+
+}
+.column-image{
+    widows: 100%;
+
+}
+.column-text{
+display: flex;
+justify-content: center;
+align-items: center;
+padding:25px;
 }
